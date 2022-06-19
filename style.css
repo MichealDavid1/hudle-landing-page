@@ -42,6 +42,11 @@ footer, header {
     height: 25%;
 }
 
+#try-free, #head-cont, .main-div {
+    justify-content: space-between;
+    align-items: center;
+}
+
 header, main, #head-cont, #foot-items, #try-free, .text-cont, .texts, .main-div, #cross-div, footer, .footer-div, .cdiv {
     display: flex;
 }
