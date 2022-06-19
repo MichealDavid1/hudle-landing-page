@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(https://fonts.google.com/specimen/Poppins);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(https://fonts.google.com/specimen/Open+Sans);
+    font-weight: 400 700;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: url(images/bg-hero-desktop.svg) no-repeat;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+main {
+    margin: 0 5%;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+header {
+    background-color: hsl(193, 100%, 96%);
+}
+
+footer, header {
+    padding: 0 5%;
+    width: 100%;
+    height: 25%;
+}
+
+header, main, #head-cont, #foot-items, #try-free, .text-cont, .texts, .main-div, #cross-div, footer, .footer-div, .cdiv {
+    display: flex;
+}
+
+header, main, .text-cont, .texts, footer, .footer-div, #cross-div  {
+    flex-flow: column;
+}
+
+#mockups-img {
+    width: 35%;
+    height: 20%;
+}
+
+.images {
+    width: 40%;
+    height: 80%;
+}
+
+#logo {
+    width: 15%;
+}
+#try-free {
+    margin: 2% 0 3% 0;
+}
