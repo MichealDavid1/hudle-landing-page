@@ -318,7 +318,7 @@ a:active {
 
     #cross-div {
         padding: 3% 5%;
-        margin-top: 530%;
+        margin-top: 490%;
         background-color: white;
         width: 350px;
         height: 150px;
@@ -402,4 +402,5 @@ a:active {
     #ready-h1 {
         font-size: 18px;
     }
+    
 }
