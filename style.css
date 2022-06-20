@@ -240,6 +240,10 @@ a:active {
     margin-left: 20%;
 }
 
+#min-location-p {
+    display: none;
+}
+
 @media only screen and (max-width:376px) {
 
     header, main, #head-cont, #foot-items, .text-cont, .texts, .main-div, #cross-div, footer {
