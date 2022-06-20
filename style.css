@@ -322,7 +322,7 @@ a:active {
 
     #cross-div {
         padding: 3% 5%;
-        margin-top: 530%;
+        margin-top: 285vh;
         background-color: white;
         width: 350px;
         height: 150px;
@@ -355,9 +355,15 @@ a:active {
     }
 
     #min-location-p, #email, #tel {
+        display: flex;
+        flex-flow: column;
         margin-left: 5%;
         margin-top: 0;
         color: rgb(218, 217, 217);
+    }
+
+    .lo {
+        text-align: start;
     }
 
     .footer-div, #contact-div {
